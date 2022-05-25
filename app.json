@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/class/class",
+    "pages/my/my"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f6f6f6",
+    "backgroundColor": "#f6f6f6",
+    "navigationBarTitleText": "iClass",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#E74C3C",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "iconPath": "./image/tabBar/home.png",
+      "selectedIconPath": "./image/tabBar/home-select.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/class/class",
+      "iconPath": "./image/tabBar/class.png",
+      "selectedIconPath": "./image/tabBar/class-select.png",
+      "text": "班级"
+    }, {
+      "pagePath": "pages/my/my",
+      "iconPath": "./image/tabBar/my.png",
+      "selectedIconPath": "./image/tabBar/my-select.png",
+      "text": "我的"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}
